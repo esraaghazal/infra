@@ -40,3 +40,7 @@ Set up CloudWatch alarms for CPU monitoring
 
 CloudWatch alarms trigger SNS notifications that send alerts to an email address when CPU usage is high.
 
+
+<img width="859" height="665" alt="image" src="https://github.com/user-attachments/assets/8c43f4cc-4d79-41e2-a933-f7e76c6d025f" />
+
+
