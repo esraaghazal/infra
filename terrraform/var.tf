@@ -1,15 +1,12 @@
 variable "region" {
-  default = "eu-central-1"
-}
-
-variable "ami" {
-  description = "Ubuntu 22.04 LTS - Frankfurt"
-  default     = "ami-0faab6bdbac9484ee"
+  description = "AWS region"
+  type        = string
+  default     = "eu-central-1"
 }
 
 variable "key_name" {
   description = "Name of your EC2 Key Pair"
-  type = string
+  type        = string
 }
 
 variable "db_password" {
@@ -21,5 +18,4 @@ variable "db_password" {
 variable "alert_email" {
   description = "Email to receive CloudWatch alerts"
   type        = string
-  default     = "esraaghazal155@gmail.com"
 }
