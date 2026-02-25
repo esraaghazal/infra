@@ -1,20 +1,3 @@
-# Architecture
-2 EC2 Instances
-
-One EC2 instance for the Frontend
-
-One EC2 instance for the Backend
-
-Amazon RDS
-
-Used as the database layer
-
-Amazon CloudWatch
-
-Monitors CPU utilization
-
-Sends email notifications when CPU usage exceeds a defined threshold
-
 # Technologies
 Terraform – Infrastructure as Code (IaC)
 
@@ -40,6 +23,7 @@ Set up CloudWatch alarms for CPU monitoring
 
 CloudWatch alarms trigger SNS notifications that send alerts to an email address when CPU usage is high.
 
+# Architecture
 
 <img width="859" height="665" alt="image" src="https://github.com/user-attachments/assets/8c43f4cc-4d79-41e2-a933-f7e76c6d025f" />
 
